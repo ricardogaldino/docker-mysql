@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=mysql-database
+      - MYSQL_USER=mysql-user
+      - MYSQL_PASSWORD=mysql-password
+      - MYSQL_ROOT_PASSWORD=mysql-root-password
+    ports:
+      - 3306:3306
