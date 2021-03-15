@@ -1,3 +1,3 @@
 # Docker | MySQL
-Docker Official Images
+Docker Official Images:
 https://hub.docker.com/_/mysql
